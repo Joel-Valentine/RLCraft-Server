@@ -14,7 +14,7 @@ fi
 
 if [ ! -d "world" ] && [ -d "server-data" ]; then
      echo "Copying previous data..."
-     cp -Rfv server-data/* .
+     cp -Rfv server-data/. .
 fi
 
 # Parameters from aikar's post:
